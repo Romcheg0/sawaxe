@@ -12,6 +12,7 @@ nav {
   border-bottom-right-radius: 60px;
   box-sizing: border-box;
   padding-left: 50px;
+  z-index: 3;
 }
 #logoPic {
   width: 50px;

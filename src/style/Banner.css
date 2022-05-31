@@ -1,7 +1,7 @@
 #banner {
   display: flex;
   flex-direction: column;
-  background: darkgreen;
+  background: url("/public/assets/banner_background.png");
   width: 100%;
   height: 100vh;
 }

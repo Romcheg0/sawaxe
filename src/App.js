@@ -1,8 +1,15 @@
-import MainPage from "./Components/Main page/MainPage"
+import MainPage from "./Components/MainPage/MainPage"
+import "./style/App.css"
+import { Route, Routes } from "react-router-dom"
+import Layout from "./Components/Layout/Layout"
 function App() {
   return (
     <div className="App">
-      <MainPage />
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<MainPage />} />
+        </Route>
+      </Routes>
     </div>
   )
 }

@@ -1,0 +1,43 @@
+#footerWrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 0;
+  width: 100%;
+  background: #006e4a;
+  padding: 15px;
+}
+.footerBlock {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 25%;
+}
+.footerBlockHeader {
+  color: white;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  width: fit-content;
+  margin: 0 auto 0 10px;
+}
+.linksList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: square;
+  color: #ff9900;
+  font-size: 18px;
+  margin-left: 30px;
+}
+.footerLink {
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+}
+.socMediaFooterPic {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}

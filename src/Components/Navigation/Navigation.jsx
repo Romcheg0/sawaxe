@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     <nav>
       <Link to="/">
-        <img src="assets/Facebook_logo.png" alt="logo" id="logoPic" />
+        <img src="assets/logo.png" alt="logo" id="logoPic" />
       </Link>
       <NavLink to="/" id="mainPageAnchor" className="pageAnchor">
         <div>ГЛАВНАЯ</div>

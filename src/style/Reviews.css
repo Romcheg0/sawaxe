@@ -1,0 +1,69 @@
+#reviewsBlockWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 50px auto 50px auto;
+}
+#reviewsHeader {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px auto 0 auto;
+  color: black;
+  text-align: center;
+}
+#reviewsWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px auto 0 auto;
+  width: 80%;
+}
+#pagePrev,
+#pageNext {
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  user-select: none;
+}
+.commentBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: fit-content;
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+}
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff9900;
+  text-align: center;
+  margin: 10px auto 0 auto;
+  width: auto;
+}
+.comment {
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  margin: 10px auto 0 auto;
+  padding: 0 15px 0 15px;
+}
+#reviewsPagination {
+  width: auto;
+  margin: 20px auto 0 auto;
+  font-size: 20px;
+  font-weight: 500;
+}
+#reviewsPaginationInput {
+  width: fit-content;
+  height: fit-content;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+}
